@@ -1,0 +1,73 @@
+# Compiled binaries
+*.o
+*.so
+*.a
+*.out
+
+# Compiled executables (keep source, ignore binaries for security)
+gpu_monitor_pro
+gpu_memory_spy
+gpu_destroyer
+gpu_security_scanner
+graphics_injector
+libadrenofx
+mmu_bypass
+opencl_direct
+ring_buffer_hijack
+firmware_dumper
+firmware_hex_analyzer
+
+# Log files and runtime data
+*.log
+gpu_monitor.log
+
+# Firmware dumps (sensitive data)
+*.bin
+adreno_firmware_dump_*
+
+# Temporary files
+*.tmp
+*.temp
+*~
+.DS_Store
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Build directories
+build/
+dist/
+obj/
+
+# Core dumps
+core
+core.*
+
+# System files
+.directory
+Thumbs.db
+
+# Local configuration
+config.local
+*.conf
+
+# Backup files
+*.bak
+*.backup
+
+# Archives
+*.tar.gz
+*.zip
+*.7z
+
+# Documentation build artifacts
+docs/_build/
+*.pdf
+
+# Runtime directories
+logs/
+tmp/
+cache/
